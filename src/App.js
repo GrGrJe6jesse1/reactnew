@@ -2,6 +2,8 @@
 import './App.css';
 import apple from './1a2cf82c9a60d6.png'
 import Main from './component/Main'
+import Post from './component/Post'
+import Footer from './component/Footer'
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         </nav>
       </header>
       <Main/>
+      <Post/>
+      <Footer/>
     </div>
   );
 }
